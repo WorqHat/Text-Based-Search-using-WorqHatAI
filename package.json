@@ -4,6 +4,7 @@
   "description": "Using WorqHat AI to enable Text and Content Based Search for 60K Dataset",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "nodemon index",
     "build:tailwind:minify": "npx tailwindcss -i ./style/tailwind.css -o ./style/styles.css --minify",
     "build:tailwind": "npx tailwindcss -i ./style/tailwind.css -o ./style/styles.css --watch"
