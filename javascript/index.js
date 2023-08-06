@@ -27,6 +27,7 @@ function createBlocks(data) {
     "md:rounded-none",
     "md:rounded-l-lg"
   );
+  img.loading = "lazy"; // add the lazy load attribute
   img.src = data.poster;
   img.alt = data.title;
 
@@ -61,7 +62,7 @@ function createBlocks(data) {
 
   const span = document.createElement("span");
   span.classList.add("font-medium", "text-gray-900");
-  span.textContent = new Date(data.release_date).toLocaleDateString();
+  span.textContent = new Date(data.release_date * 1000).toLocaleDateString();
 
   p2.appendChild(document.createTextNode("Release Date: "));
   p2.appendChild(span);

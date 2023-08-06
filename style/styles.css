@@ -811,6 +811,11 @@ select {
   margin-right: auto !important;
 }
 
+.mx-6 {
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+}
+
 .mr-3 {
   margin-right: 0.75rem !important;
 }
@@ -849,6 +854,10 @@ select {
 
 .mb-2 {
   margin-bottom: 0.5rem !important;
+}
+
+.mt-4 {
+  margin-top: 1rem !important;
 }
 
 .block {
@@ -937,6 +946,10 @@ select {
 
 .max-w-full {
   max-width: 100% !important;
+}
+
+.max-w-6xl {
+  max-width: 72rem !important;
 }
 
 .flex-\[0_0_auto\] {
@@ -2850,6 +2863,10 @@ select {
 .py-1\.5 {
   padding-top: 0.375rem !important;
   padding-bottom: 0.375rem !important;
+}
+
+.pt-10 {
+  padding-top: 2.5rem !important;
 }
 
 .text-center {
@@ -4949,6 +4966,10 @@ select {
 
   .sm\:pl-7 {
     padding-left: 1.75rem !important;
+  }
+
+  .sm\:pt-24 {
+    padding-top: 6rem !important;
   }
 
   .sm\:text-6xl {
