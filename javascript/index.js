@@ -104,6 +104,7 @@ function fetchSearchData(query) {
   });
 
   const xhr = new XMLHttpRequest();
+  xhr.withCredentials = true;
 
   xhr.addEventListener("readystatechange", function () {
     if (this.readyState === this.DONE) {
