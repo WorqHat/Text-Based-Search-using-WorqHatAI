@@ -142,3 +142,13 @@ document.getElementById("searchButton").addEventListener("click", () => {
   console.log(query);
   fetchSearchData(query);
 });
+
+var searchElements = document.getElementsByClassName("searchElement");
+
+for (var i = 0; i < searchElements.length; i++) {
+  searchElements[i].addEventListener("click", () => {
+    var query = searchElements[i].textContent;
+    document.getElementById("searchMovies").value = query;
+    fetchSearchData(query);
+  });
+}
